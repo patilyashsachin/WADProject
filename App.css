@@ -1,0 +1,410 @@
+/*Navbar*/
+
+/*Navbar-end*/
+.nav1{
+  display: flex;
+  height: 70px;
+}
+
+.navbar{
+  position: sticky;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+} 
+
+.nav1 h1{
+  width: auto;
+  font-family: 'Rubik Glitch', system-ui;
+  font-weight: 300;
+  color: rgb(126,34,206);
+  margin-left: 15px;
+  width: 450px;
+}
+
+.ul1{
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  margin-top: 25px;
+  margin-left: 600px;
+}
+
+.ul1 a{
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.link{
+  color: rgb(126,34,206);
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: rgb(126,34,206);
+}
+
+.butt{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 15px;
+  gap: 15px;   
+}
+
+.butt1:hover{
+  background-color: rgb(118, 13, 238);
+}
+
+.butt1{
+  background-color: rgb(126,34,206);
+  width: 65px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  border-style: none;
+}
+
+.nav2{
+  display: flex;
+  height: 50px;
+}
+
+.icon{
+  color: rgb(118, 13, 238);
+  margin: 12px 20px ;
+}
+
+.ul2{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 30px;
+  font-weight: 800;
+  font-size: 19px;
+  color: rgb(118, 13, 238);
+  margin-left: 430px;
+  margin-top: 12px;
+}
+
+.ul2 a{
+  text-decoration: none;
+}
+
+
+a:hover{
+  text-decoration: underline;
+  color: rgb(118, 13, 238);
+}
+
+.search{
+  margin-left: 290px;
+  margin-top: 12px;
+  color:rgb(118, 13, 238);
+  padding-right: 7px;
+}
+
+.fa-moon{
+  font-size: 25px;
+} 
+
+
+/*Home*/
+.home{
+    display: flex;
+}
+
+.home1{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.home2 img{
+   width: 760px;
+   height: 400px;
+}
+
+.top-trending{
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonials{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.testimonials1{
+    display: flex;
+}
+
+.test1, .test2{
+    border: 1px solid black;
+    margin: 0px 5px;
+    border-radius: 5px;
+    background-color: rgb(243,244,246);
+}
+
+.footer{
+    display: flex;
+    margin-left: 5px;
+}
+
+.footer h2{
+    font-family: 'Rubik Glitch', system-ui;
+    font-size: 23px;
+    font-weight: 200;
+    margin-top: 25px;
+    color: rgb(126,34,206);
+}
+
+.footer h3{
+    margin-top: 25px;
+    margin-left: 40px;
+    color: rgb(126,147,161);
+}
+
+.footicon{
+    margin-top: 28px;
+    margin-left: 880px;
+    color: rgb(126,147,161);
+}
+
+.footicon i{
+    margin-right: 8px;
+}
+
+/* Home-End */
+
+/* Card */
+
+.cardsty{
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.card h1{
+    text-align: center;
+}
+
+.cardimg{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cardsty Button{
+    background-color: rgb(118, 13, 238);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Card-end */
+
+/*  Web */
+
+.card-bor{
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.container1, .container2{
+    margin-top: 145px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Web-end */
+
+/* Login */
+
+.main{
+       border: 2px solid black;
+       width: 30%;
+       text-align: center;
+       margin-left: 35%;
+       margin-top: 90px;
+       border-radius: 5px;
+       background:rgb(21,215,253);
+       background: linear-gradient(0deg,rgba(21,215,253,1) 0%, rgba(196,29,255,1) 98%);
+}
+
+.main input{
+    margin-bottom: 60px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.main h1{
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+.main label{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.main button{
+    background-color:rgb(118, 13, 238) ;
+    color: white;
+    border-radius:5px ;
+    padding: 5px 9px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+/* Login end */
+
+/* Contact */
+
+.cont{
+    text-align: center;
+    margin-top: 0px;
+    background: linear-gradient(0deg,rgba(21,215,253,1) 0%, rgba(196,29,255,1) 98%);
+    height: 97vh;
+    padding-top: 15px;
+}
+
+.info{
+    display: inline-flex;
+    gap: 200px;
+    margin-top: 30px;
+}
+
+.phone{
+    margin-left: 55px;
+}
+
+/* Contact end */
+
+/* Anime */
+.anime {
+    color: #333;
+    font-size: 3rem;
+    font-family: 'Salsa', cursive;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position:relative;
+    width: 550px;
+    z-index: 0;
+  }
+  
+  .anime span {
+    font-size: 30px;
+    margin-left: 0px;
+
+  }
+  
+  .message {
+    background-color: rgb(126,34,206);
+    color: #333;
+    display: block;
+    font-weight: 300;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 190px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: 'Salsa', cursive;
+    font-size: auto;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 300px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 300px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 300px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 300px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 300px;
+    }
+    95% {
+      top: -9rem;
+      width: 300px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  } 
+
+  /* Anime end */
+
+
+  /* Navbar-res */
+
+  /* style.css */
+
+/* Your existing styles */
+/* style.css */
+ 
